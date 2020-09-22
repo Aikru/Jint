@@ -16,12 +16,15 @@
   .rat { 
       font-family: "Rationale";
   }
-  .tittle-el {
-    @apply text-3xl bg-red-900 ; }
+  .moonlight-el {
+    @apply items-end text-6xl text-white rat; }
 
 .navbar-el {
     @apply flex flex-row justify-end p-4 mx-10 text-white rat ;
  }
 
  .navbutton-el  { 
-     @apply mx-5 }
+     @apply mx-5 cursor-pointer }
+     
+ .button-el  { 
+    @apply text-2xl .border-white border w-56 rounded-sm }
