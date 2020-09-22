@@ -8,6 +8,14 @@
 		background-color:#2b0b4b ;
 	}
 
+	.triangle {
+		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);		background-color: red;
+		width: 30em;
+		height: 30em;
+		transform: rotate(-10deg);
+		
+	}
+
 </style>
 
 <div class="App">
@@ -22,5 +30,10 @@
 			<ul class="navbutton-el">Concept</ul>
 			<ul class="navbutton-el">Contact	</ul>
 	</li>
+
+
+	<div class="triangle">
+
+	</div>
 	</div>
 </div>
