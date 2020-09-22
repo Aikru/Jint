@@ -1,18 +1,19 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "jest"
+    "build": "snowpack build"
   },
   "dependencies": {
     "svelte": "^3.24.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^1.8.4",
-    "@testing-library/jest-dom": "^5.5.0",
-    "@testing-library/svelte": "^3.0.0",
-    "jest": "^26.2.2",
+    "@snowpack/plugin-build-script": "^2.0.7",
+    "autoprefixer": "9.8.6",
+    "postcss-cli": "^8.0.0",
+    "postcss-font-magician": "^2.3.1",
     "snowpack": "^2.11.0",
-    "svelte-check": "^1.0.0"
+    "svelte-check": "^1.0.0",
+    "tailwindcss": "^1.8.10"
   }
 }
