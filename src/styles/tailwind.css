@@ -4,6 +4,3 @@
 
 @tailwind utilities;
 
-.tittle {
-    @apply text-3xl text-white rat ;
-}
