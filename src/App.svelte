@@ -42,7 +42,7 @@
 <div class="App">
 	<header class="App-header">
 		<img src="/logo.svg" class="App-logo" alt="logo" />
-		<h1 class="bg-red-500">Hello World</h1>
+		<h1 class=" tittle">Hello World</h1>
 		<p>
 			Edit <code>src/App.svelte</code> and save to reload.
 		</p>
