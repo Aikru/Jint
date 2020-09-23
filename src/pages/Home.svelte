@@ -7,23 +7,54 @@
 		margin: -5%;
 		transform: rotate(-10deg);
 	}
+	.lol {
+		z-index: -10;
+	}
 </style>
 
 <div class="App">
-	
+	<!--Nav bar-->
 	<nav>
 		
-		<li class="navbar-el">
-			<ul class="navbutton-el">
-				Nos Soirées
-			</ul>
-			<ul class="navbutton-el">Ta Soirée</ul>
+		<div class="flex navbar-el">
+		
+
+			<div class="flex ml-auto flex-raw">
+				<ul class="navbutton-el">Vos Soirées</ul>
+				<ul class="navbutton-el">Nos soirées</ul>
+		</div>	
+			
+			<img class="mx-auto" src="https://cdn.discordapp.com/attachments/756909801077735518/758257954192621599/unknown.png" >
+	<div class="flex mr-auto flex-raw">
 			<ul class="navbutton-el">Concept</ul>
 			<ul class="navbutton-el">Contact	</ul>
-		</li>
+	</div>
+	</div>
 	</nav>
 
-<!--  MainPage -->
+<!-- Typo -->
+<div class="text-6xl text-center text-white rat"> "une <solo class="text-blue-500">party</solo> de plaisir"</div>
+
+
+<div class="flex justify-center">
+<div class="button-el "> Ma soirée</div>
+<div class="button-el"> Votre soirée</div>
+</div>
+
+	<!-- img -->
+
+	<img class="absolute top-0 w-full h-full bg-gray-700 lol" src="https://cdn.discordapp.com/attachments/756909801077735518/758258224838737940/Capture_decran_2020-09-23_a_11.27.12.png">
+
+	<div class="w-full h-full bg-red-300"></div>
+
+</div>
+
+
+
+
+
+
+<!--  MainPage 
 	
 	<div class="flex w-full mb-48">
 
@@ -39,9 +70,10 @@
 
 </div>
 
-
-<!-- FORM -->
-<div class="flex flex-col w-full text-white rat h-500px">
+-->
+<!-- FORM 
+<div class="
+ flex-col w-full text-white rat h-500px">
 	<div class="flex flex-col w-1/3 mx-auto my-2"> Nom <input type="text"> </div>
 	<div class="flex flex-col w-1/3 mx-auto my-2"> Mail <input type="text"> </div>
 
@@ -50,4 +82,4 @@
 
 	</div>
 
-</div>
+</div> -->

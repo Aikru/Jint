@@ -1,21 +1,26 @@
 
 /* rationale-regular - latin */  
 .rat { 
-    font-family: "Rationale";
+    font-family: "Knewave";
 }
+
+.pop { 
+    font-family: "Poppins";
+}
+
 .moonlight-el {
     @apply items-end text-6xl text-white rat;
 }
 
 .navbar-el {
-    @apply flex flex-row justify-end p-4 mx-10 text-white rat;
+    @apply flex flex-row justify-end p-4 mx-10 my-auto text-white pop;
 }
 
 .navbutton-el { 
-    @apply mx-5 cursor-pointer;
+    @apply mx-5 text-4xl cursor-pointer pop;
 }
      
 .button-el { 
-    @apply text-2xl .border-white border w-56 rounded-sm;
+    @apply justify-center w-1/6 h-10 m-5 text-2xl text-center bg-white rounded-md ;
 }
 
