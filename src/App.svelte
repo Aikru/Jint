@@ -21,8 +21,7 @@
 
 </style>
 
-<div class="App">
-	
+<!-- 	
 	<nav>
 		
 		<li class="navbar-el">
@@ -35,7 +34,7 @@
 		</li>
 	</nav>
 
-<!--  MainPage -->
+ MainPage
 	
 	<div class="flex w-full mb-48">
 
@@ -47,12 +46,17 @@
 			<button class="text-indigo-900 bg-white button-el ">Crée ta soirée</button>
 			<button class="button-el">Voir nos soirées</button>
 		</div>
-	</div>
+	</div> 
 
 </div>
 
+-->
 
-<!-- FORM -->
+
+
+
+
+<!-- FORM 
 <div class="flex flex-col w-full text-white rat h-500px">
 	<div class="flex flex-col w-1/3 mx-auto my-2 "> Nom <input type="text"> </div>
 	<div class="flex flex-col w-1/3 mx-auto my-2 "> Mail <input type="text"> </div>
@@ -61,5 +65,31 @@
 	<button class="m-auto button-el"> Envoyer</button>	
 
 	</div>
+-->
+
+<div class="App">
+	<div class="w-full text-xl text-center text-white rat">Question random a poser  </div>
+
+	<div class="flex mx-auto">
+
+		<div class="flex mx-auto"> 
+	<div class="flex flex-col w-56 h-56 m-8 border border-white"> 
+		<div class="w-48 h-48 m-auto bg-white "> </div> 
+		<div class="m-auto text-white rat">Reponse</div> 
+	</div>	<div class="flex flex-col w-56 h-56 m-8 border border-white"> 
+		<div class="w-48 h-48 m-auto bg-white "> </div> 
+		<div class="m-auto text-white rat">Reponse</div> 
+	</div>
+	<div class="flex flex-col w-56 h-56 m-8 border border-white"> 
+		<div class="w-48 h-48 m-auto bg-white "> </div> 
+		<div class="m-auto text-white rat">Reponse</div> 
+	</div>
+	 
+</div>
+
 
 </div>
+
+</div>
+
+
