@@ -1,24 +1,21 @@
 
-<script>
-	</script>
+<script></script>
 
 <style>
 	:global(body) {
 		margin: 0;
 		font-family: Arial, Helvetica, sans-serif;
-		background-color:#2b0b4b ;
+		background-color:#2b0b4b;
 	}
 
 	.triangle {
-		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);		background-color: red;
+		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+		background-color: red;
 		width: 35em;
 		height: 30em;
 		margin: -5%;
 		transform: rotate(-10deg);
 	}
-	
-		
-
 </style>
 
 <div class="App">
@@ -40,11 +37,11 @@
 	<div class="flex w-full mb-48">
 
 	<div class="triangle"></div>
-	<div class="m-auto moonlight-el "> Moonlight
+	<div class="m-auto moonlight-el"> Moonlight
 		<p class='text-xl'>Lorem iptsum dolor je sais plus la suite</p>
 
 		<div class="mx5">
-			<button class="text-indigo-900 bg-white button-el ">Crée ta soirée</button>
+			<button class="text-indigo-900 bg-white button-el">Crée ta soirée</button>
 			<button class="button-el">Voir nos soirées</button>
 		</div>
 	</div>
@@ -54,8 +51,8 @@
 
 <!-- FORM -->
 <div class="flex flex-col w-full text-white rat h-500px">
-	<div class="flex flex-col w-1/3 mx-auto my-2 "> Nom <input type="text"> </div>
-	<div class="flex flex-col w-1/3 mx-auto my-2 "> Mail <input type="text"> </div>
+	<div class="flex flex-col w-1/3 mx-auto my-2"> Nom <input type="text"> </div>
+	<div class="flex flex-col w-1/3 mx-auto my-2"> Mail <input type="text"> </div>
 
 	<div class="flex flex-col w-1/3 mx-auto my-2 " > Message <textarea class="w-full h-32 my-0 text-black" type="text"> </textarea> </div>
 	<button class="m-auto button-el"> Envoyer</button>	

@@ -1,31 +1,21 @@
 
-/* rationale-regular - latin */
-@font-face {
+/* rationale-regular - latin */  
+.rat { 
     font-family: "Rationale";
-    font-style: normal;
-    font-weight: 400;
-    src: url('./fonts/rationale-v12-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Rationale'), local('Rationale-Regular'),
-         url('./fonts/rationale-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./fonts/rationale-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('./fonts/rationale-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('./fonts/rationale-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('./fonts/rationale-v12-latin-regular.svg#Rationale') format('svg'); /* Legacy iOS */
-  }
-  
-  .rat { 
-      font-family: "Rationale";
-  }
-  .moonlight-el {
-    @apply items-end text-6xl text-white rat; }
+}
+.moonlight-el {
+    @apply items-end text-6xl text-white rat;
+}
 
 .navbar-el {
-    @apply flex flex-row justify-end p-4 mx-10 text-white rat ;
- }
+    @apply flex flex-row justify-end p-4 mx-10 text-white rat;
+}
 
- .navbutton-el  { 
-     @apply mx-5 cursor-pointer }
+.navbutton-el { 
+    @apply mx-5 cursor-pointer;
+}
      
- .button-el  { 
-    @apply text-2xl .border-white border w-56 rounded-sm }
+.button-el { 
+    @apply text-2xl .border-white border w-56 rounded-sm;
+}
 
