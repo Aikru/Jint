@@ -68,39 +68,13 @@ import Header from "../components/Header.svelte";
 				<p>Créer ta soirée</p>
 			</div>
 		</div>
-	</div>
-</div>
 
-
-
-
-
-
-<!--  MainPage 
-	
-	<div class="flex w-full mb-48">
-
-	<div class="triangle"></div>
-	<div class="m-auto moonlight-el"> Moonlight
-		<p class='text-xl'>Lorem iptsum dolor je sais plus la suite</p>
-
-		<div class="mx5">
-			<button class="text-indigo-900 bg-white button-el">Crée ta soirée</button>
-			<button class="button-el">Voir nos soirées</button>
+		<div class="flex flex-col w-full text-white rat h-500px ">
+			<div class="flex flex-col w-1/3 mx-auto my-2 text-indigo-900 pop">Nom <input class="border border-indigo-900 pop" type="text"></div>
+			<div class="flex flex-col w-1/3 mx-auto my-2 text-indigo-900 pop">Email <input class="border border-indigo-900 pop" type="email"></div>
+			<div class="flex flex-col w-1/3 mx-auto my-2 text-indigo-900 pop">Message <textarea class="w-full h-32 my-0 text-black border border-indigo-900 pop" type="text"></textarea></div>
+			<button class="w-1/3 m-auto bg-indigo-900 border pop">Envoyer</button>
 		</div>
-	</div>
 
+	</div>
 </div>
-
--->
-<!-- FORM 
-<div class="flex-col w-full text-white rat h-500px">
-	<div class="flex flex-col w-1/3 mx-auto my-2"> Nom <input type="text"> </div>
-	<div class="flex flex-col w-1/3 mx-auto my-2"> Mail <input type="text"> </div>
-
-	<div class="flex flex-col w-1/3 mx-auto my-2 " > Message <textarea class="w-full h-32 my-0 text-black" type="text"> </textarea> </div>
-	<button class="m-auto button-el"> Envoyer</button>	
-
-	</div>
-
-</div> -->
