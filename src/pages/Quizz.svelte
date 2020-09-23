@@ -1,6 +1,7 @@
 <script>
 
     import AnswerCard from '../components/AnswerCard.svelte';
+    import questionsList from '../questions.json';
 
     let currentQuestion = 0;
 
@@ -10,28 +11,7 @@
         c: 0
     };
 
-    const questions = [{
-        title: 'Combien de personnes seront à votre fête ?',
-        answers: [
-            {
-                label: '2 - 10',
-                value: 'a'
-            },
-            {
-                label: '11 - 30',
-                value: 'b'
-            },
-            {
-                label: '+ 30',
-                value: 'c'
-            }
-        ]
-    }].map(question => {
-        return {
-            ...question,
-            answers: shuffle(question.answers)
-        }
-    });
+    const questions = shuffle(questionsList);
 
     function shuffle(a) {
         for (let i = a.length - 1; i > 0; i--) {

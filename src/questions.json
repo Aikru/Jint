@@ -1,0 +1,102 @@
+[
+    {
+        "title": "Peux-tu te déplacer ?",
+        "answers": [
+            {
+                "label": "Non",
+                "image": "",
+                "value": "a"
+            },
+            {
+                "label": "Entre 1km et 10km",
+                "image": "",
+                "value": "b"
+            },
+            {
+                "label": "Entre 10km et plus",
+                "image": "",
+                "value": "c"
+            }
+        ]
+    },
+    {
+        "title": "Combien serais-tu à mettre pour participer à l'événement ?",
+        "answers": [
+            {
+                "label": "Entre 0€ et 1 000€",
+                "image": "",
+                "value": "a"
+            },
+            {
+                "label": "Entre 1 000€ et 5 000€",
+                "image": "",
+                "value": "b"
+            },
+            {
+                "label": "Entre 5 000€ et plus",
+                "image": "",
+                "value": "c"
+            }
+        ]
+    },
+    {
+        "title": "Aimes-tu quand il y a du monde à l'événement ?",
+        "answers": [
+            {
+                "label": "Entre 0 et 30 personnes",
+                "image": "",
+                "value": "a"
+            },
+            {
+                "label": "Entre 30 et 60 personnes",
+                "image": "",
+                "value": "b"
+            },
+            {
+                "label": "Plus de 60 personnes",
+                "image": "",
+                "value": "c"
+            }
+        ]
+    },
+    {
+        "title": "Avec quel genre d'établissement es-tu le le/la plus à l'aise ?",
+        "answers": [
+            {
+                "label": "Bar",
+                "image": "",
+                "value": "a"
+            },
+            {
+                "label": "Maison",
+                "image": "",
+                "value": "b"
+            },
+            {
+                "label": "Club",
+                "image": "",
+                "value": "c"
+            }
+        ]
+    },
+    {
+        "title": "A quelle type d'événement souhaiterais-tu participer ?",
+        "answers": [
+            {
+                "label": "A une soirée d'anniversaire",
+                "image": "",
+                "value": "a"
+            },
+            {
+                "label": "A une soirée étudiante",
+                "image": "",
+                "value": "b"
+            },
+            {
+                "label": "A un festival annuel",
+                "image": "",
+                "value": "c"
+            }
+        ]
+    }
+]
