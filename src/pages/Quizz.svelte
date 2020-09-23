@@ -5,11 +5,7 @@
 
     let currentQuestion = 0;
 
-    const result = {
-        a: 0,
-        b: 0,
-        c: 0
-    };
+    const result = { a: 0, b: 0, c: 0 };
 
     const questions = shuffle(questionsList);
 
@@ -34,9 +30,11 @@
     }
 </style>
 
+
 {#if questions[currentQuestion]}
     <div class="flex flex-col items-center justify-center h-full">
         <div class="w-full text-xl text-center text-white rat">
+            <h1 class="w-full text-xl text-center text-white rat">Question {currentQuestion + 1} / {questions.length}</h1>
             <h1>{questions[currentQuestion].title}</h1>
         </div>
         <div class="flex mx-auto">
