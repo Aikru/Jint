@@ -1,6 +1,7 @@
 <script>
 
     import AnswerCard from '../components/AnswerCard.svelte';
+import Header from '../components/Header.svelte';
     import questionsList from '../questions.json';
 
     let currentQuestion = 0;
@@ -30,6 +31,7 @@
     }
 </style>
 
+<Header />
 
 {#if questions[currentQuestion]}
     <div class="flex flex-col items-center justify-center h-full">
