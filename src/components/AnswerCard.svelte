@@ -18,6 +18,9 @@
     }
 </style>
 
-<div on:click={answerSelected}>
-    <h1>{answer.label}</h1>
+<div class="flex flex-col w-56 h-56 m-8 border border-white" on:click={answerSelected}> 
+    <div class="w-48 h-48 m-auto bg-white"></div> 
+    <div class="m-auto text-white rat">
+        <h1>{answer.label}</h1>
+    </div> 
 </div>
