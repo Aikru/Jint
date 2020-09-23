@@ -55,14 +55,16 @@
 </style>
 
 {#if questions[currentQuestion]}
-    <div class="w-full text-xl text-center text-white rat">
-        <h1>{questions[currentQuestion].title}</h1>
-    </div>
-    <div class="flex mx-auto">
-        <div class="flex mx-auto"> 
-            {#each questions[currentQuestion].answers as answer}
-                <AnswerCard answer={answer} on:answerSelected={addPoints} />
-            {/each}
+    <div class="flex flex-col items-center justify-center h-full">
+        <div class="w-full text-xl text-center text-white rat">
+            <h1>{questions[currentQuestion].title}</h1>
+        </div>
+        <div class="flex mx-auto">
+            <div class="flex mx-auto"> 
+                {#each questions[currentQuestion].answers as answer}
+                    <AnswerCard answer={answer} on:answerSelected={addPoints} />
+                {/each}
+            </div>
         </div>
     </div>
 {/if}
