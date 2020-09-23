@@ -49,12 +49,36 @@
 	</div>
 	<!--Nav bar-->
 
-	<!-- img -->
-
-	<div class="w-full h-full bg-red-300">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi dignissimos voluptatibus, labore quo tempore veniam cumque sapiente, repellendus aut repellat quasi maxime atque, vel officia? Quisquam laudantium aliquid laborum.
+	<div class="w-1/3 h-20 px-20 my-5 text-4xl text-white bg-red-500 rounded-full rounded-l-none rat align-text text">
+		<p>Creer ta soirée</p>
 	</div>
 
+
+	<div class="flex w-full m-20 flex-raw">
+
+		<div class="w-1/4 mx-20 text-4xl text-center text-violet-500 m-50 pop">
+			<p>A ton domicile</p>
+
+			<p class="w-full text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<button class="w-1/3 text-lg text-red-800 bg-yellow-600 rounded-lg cursor-pointer"> en savoir plus</button>
+
+		</div>
+
+		
+		<div class="w-1/4 mx-20 text-4xl text-center text-violet-500 pop">
+			<p>Loue une salle</p>
+
+			<p class="w-full text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<button class="w-1/3 text-lg text-red-800 bg-yellow-600 rounded-lg cursor-pointer"> en savoir plus</button>
+		</div>
+
+	</div>
+	<div class="w-full h-full bg-red-600">
+		<div class="right-0 w-1/3 h-20 px-20 my-5 text-4xl text-white bg-red-500 rounded-full rounded-r-none rat align-text text">
+			<p>Créer ta soirée</p>
+		</div>
+	</div>
 </div>
 
 

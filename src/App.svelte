@@ -9,7 +9,7 @@
 	:global(body) {
 		margin: 0;
 		font-family: Arial, Helvetica, sans-serif;
-		background-color:#2b0b4b;
+		overflow-x: hidden;
 	}
 </style>
 

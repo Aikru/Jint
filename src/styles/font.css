@@ -12,6 +12,11 @@
     @apply items-end text-6xl text-white rat;
 }
 
+.bgr {
+
+    background-color: #EB536A; 
+}
+
 .navbar-el {
     @apply flex flex-row justify-end p-3 mx-10 my-auto text-white pop;
 }
